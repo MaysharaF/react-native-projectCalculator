@@ -36,7 +36,6 @@ export default class App extends Component {
           <Button label="3" />
           <Button label="+" />
           <Button label="0" />
-          <Button label="-" />
           <Button label="." />
           <Button label="=" />
         </View>
