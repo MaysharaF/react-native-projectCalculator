@@ -4,6 +4,10 @@ import Button from './src/components/Button';
 import Display from './src/components/Display';
 
 export default class App extends Component {
+  state = {
+    displayValue: '0',
+  };
+
   render() {
     return (
       <View style={styles.container}>
