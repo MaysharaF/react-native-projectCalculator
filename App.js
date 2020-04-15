@@ -23,7 +23,7 @@ export default class App extends Component {
       <View style={styles.container}>
         <Display value={this.state.displayValue} />
         <View style={styles.buttons}>
-          <Button label="AC" />
+          <Button label="AC" triple onClick={this.clearMemory} />
           <Button label="/" />
           <Button label="7" />
           <Button label="8" />
