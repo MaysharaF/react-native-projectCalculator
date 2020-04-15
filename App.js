@@ -11,6 +11,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Display value={this.state.displayValue} />
         <View style={styles.buttons}>
           <Button label="AC" />
           <Button label="/" />
