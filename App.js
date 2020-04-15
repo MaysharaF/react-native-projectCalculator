@@ -12,6 +12,10 @@ export default class App extends Component {
     this.setState({displayValue: n});
   };
 
+  clearMemory = () => {
+    this.setState({displayValue: '0'});
+  };
+
   render() {
     return (
       <View style={styles.container}>
