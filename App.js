@@ -16,6 +16,8 @@ export default class App extends Component {
     this.setState({displayValue: '0'});
   };
 
+  setOperation = operation => {};
+
   render() {
     return (
       <View style={styles.container}>
