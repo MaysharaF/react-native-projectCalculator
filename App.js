@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Plataform, StyleSheet, Text, View} from 'react-native';
 import Button from './src/components/Button';
+import Display from './src/components/Display';
 
 export default class App extends Component {
   render() {
