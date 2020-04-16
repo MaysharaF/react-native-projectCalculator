@@ -12,9 +12,7 @@ const initialState = {
 };
 
 export default class App extends Component {
-  state = {
-    displayValue: '0',
-  };
+  state = {...initialState};
 
   addDigit = n => {
     this.setState({displayValue: n});
