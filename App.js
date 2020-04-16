@@ -18,6 +18,9 @@ export default class App extends Component {
     if (n == '.' && this.state.displayValue.includes('.')) {
       return;
     }
+
+    const clearDisplay =
+      this.state.displayValue === '0' || this.state.clearDisplay;
   };
 
   clearMemory = () => {
