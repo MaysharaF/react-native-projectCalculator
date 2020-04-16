@@ -15,7 +15,9 @@ export default class App extends Component {
   state = {...initialState};
 
   addDigit = n => {
-    this.setState({displayValue: n});
+    if (n == '.' && this.state.displayValue.includes('.')) {
+      return;
+    }
   };
 
   clearMemory = () => {
