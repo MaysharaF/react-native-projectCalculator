@@ -34,7 +34,7 @@ export default class App extends Component {
   };
 
   clearMemory = () => {
-    this.setState({displayValue: '0'});
+    this.setState({...initialState});
   };
 
   setOperation = operation => {};
