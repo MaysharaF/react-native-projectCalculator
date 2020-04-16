@@ -24,7 +24,7 @@ export default class App extends Component {
         <Display value={this.state.displayValue} />
         <View style={styles.buttons}>
           <Button label="AC" triple onClick={this.clearMemory} />
-          <Button label="/" />
+          <Button label="/" operation onClick={() => this.setOperation('/')} />
           <Button label="7" />
           <Button label="8" />
           <Button label="9" />
